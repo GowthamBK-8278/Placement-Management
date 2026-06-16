@@ -34,7 +34,7 @@ public class DatabaseConnection {
         
         // Fallback checks for different execution environments (VS Code debugger, different working dirs)
         if (!file.exists()) {
-            file = new File("d:/Java Mini project/" + PROPERTIES_FILE);
+            file = new File("d:/Java Mini project/Placement-Management/" + PROPERTIES_FILE);
         }
         if (!file.exists()) {
             file = new File("../" + PROPERTIES_FILE);
